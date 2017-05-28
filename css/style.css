@@ -1,0 +1,147 @@
+*::-moz-selection {
+  background-color: #52616a;
+}
+
+*::selection {
+  background-color: #52616a;
+}
+
+html, body {
+  background-color: #dbdbdb;
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), -webkit-radial-gradient(at 50% 0% at 50% 0%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), radial-gradient(at 50% 0% at 50% 0%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%);
+  background-blend-mode: soft-light,screen;
+}
+
+header, nav {
+  text-transform: Capitalize;
+  width: 100%;
+  height: 57.14286px;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+  background-color: #44633F;
+}
+header .logo, nav .logo {
+  color: #fff;
+  line-height: 50px;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+
+.Formulario {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  outline-color: #44633F !important;
+  margin-top: 0px;
+}
+.Formulario h2 {
+  margin-bottom: 4px;
+  -webkit-text-decoration-style: solid !important;
+          text-decoration-style: solid !important;
+  font-family: arial;
+}
+.Formulario label {
+  float: left;
+}
+.Formulario input[type="text"], .Formulario input[type="number"], .Formulario input[type="search"], .Formulario input[type="date"] {
+  background-color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+.Formulario input[type="text"]:focus, .Formulario input[type="number"]:focus, .Formulario input[type="search"]:focus, .Formulario input[type="date"]:focus {
+  outline-color: none !important;
+  border: none;
+}
+.Formulario input[type="text"] input[type="date"], .Formulario input[type="number"] input[type="date"], .Formulario input[type="search"] input[type="date"], .Formulario input[type="date"] input[type="date"] {
+  width: 100%;
+  height: 3.8rem;
+  padding: .6rem 1.0rem;
+  border-radius: .4rem;
+  border: 0.1rem solid #d1d1d1;
+}
+.Formulario input[type="button"], .Formulario .btn, .Formulario button {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #44633F;
+  border-color: #44633F;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.Formulario input[type="button"]:hover, .Formulario .btn:hover, .Formulario button:hover {
+  background-color: #52616a;
+  border-color: #52616a;
+}
+.Formulario input[type="button"]:active, .Formulario .btn:active, .Formulario button:active {
+  background-color: #bd1550;
+  border-color: #bd1550;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.Griv {
+  position: relative;
+  width: 85%;
+}
+.Griv .container {
+  overflow: scroll;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+.Griv thead, .Griv td {
+  background-color: #e97f02;
+}
+.Griv thead tbody, .Griv thead tr, .Griv td tbody, .Griv td tr {
+  border: 2px solid #e97f02;
+  text-align: center;
+}
+.Griv thead strong, .Griv td strong {
+  color: #fff;
+}
+.Griv thead strong i, .Griv td strong i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.Griv thead td, .Griv td td {
+  text-transform: Capitalize;
+}
+
+.naranja {
+  color: #e97f02;
+}
+
+.fa-trash {
+  font-size: 18px;
+  line-height: 20px / 2;
+}
+
+tablet {
+  overflow-x: visible;
+  height: 400px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.52);
+}
+tablet i {
+  color: white;
+  margin-left: 40px;
+}
+
+.cont {
+  margin-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  float: left;
+}
+
+.cont2 {
+  margin-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  float: right;
+}
+
+::-webkit-input-placeholder {
+  color: #52616a;
+  font-size: 20px;
+  text-align: center;
+}
